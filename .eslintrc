@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "rules": {
+    "quotes": [2, "single", "avoid-escape"]
+  }
+}
