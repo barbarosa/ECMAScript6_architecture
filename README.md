@@ -5,14 +5,11 @@ Presentation http://slides.com/andreipreda/js-architecture-workshop
 
 ### Install
 
-Assuming you have node.js, npm and gulp (globally installed)
+Assuming you have node.js, npm and gulp (globally installed), from the project directory run:
 
-```
-npm install
-```
-```
-gulp compiled
-```
-```
-gulp webserver
-```
+
+```npm install```
+
+```gulp compiled```
+
+```gulp webserver```
