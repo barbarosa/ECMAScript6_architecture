@@ -13,3 +13,5 @@ Assuming you have node.js, npm and gulp (globally installed), from the project d
 ```gulp compiled```
 
 ```gulp webserver```
+
+![alt system_overview](https://lh3.googleusercontent.com/HwFXxYP_1qvH7_rzH141Kz9hFNnw3awzyPZvwreMoew=w1958-h1108-no)
