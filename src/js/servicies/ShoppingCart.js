@@ -16,10 +16,16 @@ let cursors = {
 //changes the baobab data structure
 let shoppingCart = {
 
+  /**
+   * @param item - string
+   */
   addItem (item) {
     cursors.basketItems.push(item);
   },
 
+  /**
+   * @param item - string
+   */
   removeItem (item) {
     cursors.basketItems.splice([this.items().indexOf(item), 1]);
   },
