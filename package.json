@@ -14,9 +14,12 @@
     "es6",
     "ecmascript6",
     "workshop",
-    "example",
     "architecture",
-    "jsvascript"
+    "jsvascript",
+    "react",
+    "mocha",
+    "baobab",
+    "ecommerce"
   ],
   "author": "Andrei Preda <andrei.preda@live.com>",
   "license": "MIT",
