@@ -6,7 +6,7 @@ Workshop and example of architecture with testable, maintainable, decoupled comp
 
 Can be used as a starter for an ecommerce client app.
 
-*Presentation: * http://slides.com/andreipreda/js-architecture-workshop
+Presentation: http://slides.com/andreipreda/js-architecture-workshop
 
 ### Content
 
