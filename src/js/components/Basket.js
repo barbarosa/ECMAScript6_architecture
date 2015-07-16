@@ -5,7 +5,7 @@
 'use strict';
 
 import React from 'react';
-import {cursors, shoppingCart} from './../servicies/ShoppingCart.js';
+import {cursors, shoppingCart} from '../services/ShoppingCart.js';
 
 let BasketComponent = React.createClass({
 

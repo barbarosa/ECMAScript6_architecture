@@ -5,7 +5,7 @@
 'use strict';
 
 import {expect} from 'chai';
-import {cursors, shoppingCart} from './../../src/js/servicies/ShoppingCart.js';
+import {cursors, shoppingCart} from '../../src/js/services/ShoppingCart.js';
 
 describe('Shopping Cart Service', () => {
 
@@ -43,24 +43,23 @@ describe('Shopping Cart Service', () => {
     shoppingCart.addItem('hazelnuts');
 
     cursors.basketItems.on('update', () => {
-
       expect(shoppingCart.items()).to.have.length(1);
       expect(shoppingCart.items()[0]).to.equal('hazelnuts');
-
-      done();
     });
+
+    done();
   });
 
   it('Expect removeItem to remove an item from items', (done) => {
 
     //modifies the same baobab tree which now will become empty
     shoppingCart.removeItem('hazelnuts');
+
     cursors.basketItems.on('update', () => {
-
       expect(shoppingCart.items()).to.be.empty;
-
-      done();
     });
+
+    done();
   });
 
 });

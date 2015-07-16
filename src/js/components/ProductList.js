@@ -5,7 +5,7 @@
 'use strict';
 
 import React from 'react';
-import {cursors, shoppingCart} from './../servicies/ShoppingCart.js';
+import {cursors, shoppingCart} from '../services/ShoppingCart.js';
 
 let ProductListComponent = React.createClass({
 
@@ -22,11 +22,13 @@ let ProductListComponent = React.createClass({
   render () {
     return <div className="productList">
       Product list: <br />
+      <ul>
       {this.state.products.map(
           item => {
             return <li>{item} <button onClick={this.addProductToBasket.bind(this, item)}>add</button></li>;
           }
       )}
+      </ul>
     </div>;
   }
 
