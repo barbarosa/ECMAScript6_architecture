@@ -36,7 +36,7 @@ export default class BasketComponent extends React.Component {
   }
 
   /**
-   * returns {XML}
+   * @returns {XML}
    */
   render () {
     return <div className="basket">
