@@ -7,6 +7,9 @@
 import {expect} from 'chai';
 import {cursors, shoppingCart} from '../../src/js/services/ShoppingCart.js';
 
+/**
+ * @test {ShoppingCart}
+ */
 describe('Shopping Cart Service', () => {
 
   it('Expect cursors to be an object', () => {

@@ -17,6 +17,9 @@ global.window = document.parentWindow;
 
 const TestUtils = React.addons.TestUtils;
 
+/**
+ * @test {BasketComponent}
+ */
 describe('Basket Component', () => {
 
   before(function () {

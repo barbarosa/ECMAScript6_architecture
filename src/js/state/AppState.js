@@ -8,6 +8,9 @@ import Baobab from 'baobab';
 
 //setup the initial app state
 //could be after a server call a client side database, localstorage etc
+/**
+ * Main App state as a Baobab instance
+ */
 let AppState = new Baobab({
 
   'basket': {

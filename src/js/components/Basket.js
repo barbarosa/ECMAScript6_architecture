@@ -1,32 +1,43 @@
-/**
- * Basket component
- */
-
 'use strict';
 
 import React from 'react';
 import {cursors, shoppingCart} from '../services/ShoppingCart.js';
 
-let BasketComponent = React.createClass({
+/**
+ * Basket Component
+ * @extends {React.Component}
+ */
+export default class BasketComponent extends React.Component {
 
-  getInitialState () {
-    return {
-      items: shoppingCart.items()
-    };
-  },
+  /**
+   * @desc sets initial state from shoppingCart items
+   */
+  constructor () {
+    super();
+    this.state = {items: shoppingCart.items()};
+  }
 
+  /**
+   * @desc assigns a baobab listener after component has been mounted
+   */
   componentDidMount () {
     cursors.basketItems.on('update', () => {
       this.setState({
         items: shoppingCart.items()
       });
     });
-  },
+  }
 
+  /**
+   * @param item {string}
+   */
   removeItemFromBasket (item) {
     shoppingCart.removeItem(item);
-  },
+  }
 
+  /**
+   * returns {XML}
+   */
   render () {
     return <div className="basket">
       Basket ({this.state.items.length})
@@ -40,6 +51,4 @@ let BasketComponent = React.createClass({
     </div>;
   }
 
-});
-
-export default BasketComponent;
+}

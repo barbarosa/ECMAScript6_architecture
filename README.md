@@ -1,6 +1,6 @@
-# ecmascript6_architecture
+# EcmaScript6_architecture
 
-![alt system_overview](https://lh3.googleusercontent.com/HwFXxYP_1qvH7_rzH141Kz9hFNnw3awzyPZvwreMoew=w1958-h1108-no)
+![alt system_overview](https://lh3.googleusercontent.com/Q6HBwBqHKxTH1Jl2rxO09BNjIaT-8W44MQIeDg7mZVM=w900-h509-no)
 
 Workshop and example of architecture with testable, maintainable, decoupled components written in ES6.
 
@@ -8,19 +8,19 @@ Can be used as a starter for an ecommerce client app.
 
 Presentation: http://slides.com/andreipreda/js-architecture-workshop
 
-### Content
+## Content
 
 * Basic shopping cart application writen in JavaScript ES6 that uses [React](https://facebook.github.io/react/) and [Baobab](https://github.com/Yomguithereal/baobab) although the architecture described can be framework independent
 
 * Unit tests with example testing a React component using [jsdom](https://github.com/tmpvar/jsdom) and [cheerio](https://github.com/cheeriojs/cheerio) on [mocha](http://mochajs.org/)
 
+* Documented code example
 
-
-
-### Install, run and test
+## Install, run and test
 
 Assuming you have node.js, npm, gulp & mocha (globally installed), from the project directory run:
 
+*From the project directory*:
 
 ```npm install```
 
@@ -30,5 +30,19 @@ Assuming you have node.js, npm, gulp & mocha (globally installed), from the proj
 
 ```gulp webserver```
 
-### Licence
+## Docs
+
+Build docs using [esdoc](https://esdoc.org/)
+
+![alt docs_screenshot](https://lh3.googleusercontent.com/dkOH_cz9K1P8ojQQL0l2nwpcpfZ4PjatfaGe9pKQURo=w1326-h754-no)
+
+*From the project directory*:
+
+```npm install -g esdoc```
+
+```esdoc -c esdoc.json```
+
+```open ./esdoc/index.html```
+
+## Licence
 MIT
