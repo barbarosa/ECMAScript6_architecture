@@ -1,5 +1,7 @@
 # EcmaScript6_architecture
 
+[![Build Status](https://travis-ci.org/barbarosa/ECMAScript6_architecture.svg?branch=master)](https://travis-ci.org/barbarosa/ECMAScript6_architecture)
+
 ![alt system_overview](https://lh3.googleusercontent.com/Q6HBwBqHKxTH1Jl2rxO09BNjIaT-8W44MQIeDg7mZVM=w900-h509-no)
 
 Workshop and example of architecture with testable, maintainable, decoupled components written in ES6.
