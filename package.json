@@ -4,7 +4,7 @@
   "description": "Workshop about setting up an ES6 project using decoupled components and a central state manager",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter list"
+    "test": "node_modules/mocha/bin/mocha --reporter list --compilers js:babel/register"
   },
   "repository": {
     "type": "git",
@@ -39,6 +39,7 @@
     "eslint": "^0.24.1",
     "gulp-browserify": "^0.5.1",
     "gulp-webserver": "^0.9.1",
-    "jsdom": "^3.1.2"
+    "jsdom": "^3.1.2",
+    "mocha": "^2.2.5"
   }
 }
